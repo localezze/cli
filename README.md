@@ -15,29 +15,29 @@ lokezze
 # Usage
 <!-- usage -->
 ```sh-session
-$ npm install -g lokezze
-$ lokezze COMMAND
+$ npm install -g @localezze/cli
+$ localezze COMMAND
 running command...
-$ lokezze (-v|--version|version)
-lokezze/0.0.0 darwin-x64 node-v14.17.6
-$ lokezze --help [COMMAND]
+$ localezze (-v|--version|version)
+@localezze/cli/0.0.2 darwin-x64 node-v14.17.6
+$ localezze --help [COMMAND]
 USAGE
-  $ lokezze COMMAND
+  $ localezze COMMAND
 ...
 ```
 <!-- usagestop -->
 # Commands
 <!-- commands -->
-* [`lokezze hello [FILE]`](#lokezze-hello-file)
-* [`lokezze help [COMMAND]`](#lokezze-help-command)
+* [`localezze hello [FILE]`](#localezze-hello-file)
+* [`localezze help [COMMAND]`](#localezze-help-command)
 
-## `lokezze hello [FILE]`
+## `localezze hello [FILE]`
 
 describe the command here
 
 ```
 USAGE
-  $ lokezze hello [FILE]
+  $ localezze hello [FILE]
 
 OPTIONS
   -f, --force
@@ -49,15 +49,15 @@ EXAMPLE
   hello world from ./src/hello.ts!
 ```
 
-_See code: [src/commands/hello.ts](https://github.com/projects/lokezze/blob/v0.0.0/src/commands/hello.ts)_
+_See code: [src/commands/hello.ts](https://github.com/projects/localezze/blob/v0.0.2/src/commands/hello.ts)_
 
-## `lokezze help [COMMAND]`
+## `localezze help [COMMAND]`
 
-display help for lokezze
+display help for localezze
 
 ```
 USAGE
-  $ lokezze help [COMMAND]
+  $ localezze help [COMMAND]
 
 ARGUMENTS
   COMMAND  command to show help for
